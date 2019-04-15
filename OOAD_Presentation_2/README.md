@@ -16,7 +16,7 @@ Class Description:
   Coach – Interface  
   FortuneService – Dependency – Interface
   PianoCoach – Constructor based injection
-  HarmonicaCoach – Setter method based injection  
+  HarmonicaCoach – Setter method based injection
   HappyFortuneService – Implementation of FortuneService
   TrackCoach – Guitar Coach
   DependencyInjection – main class
