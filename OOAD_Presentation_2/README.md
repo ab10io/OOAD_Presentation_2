@@ -13,23 +13,22 @@ The two approaches are almost similiar. Instead of using a constructor to set th
 
 
 Class Description:
-  Coach – Interface  
-  FortuneService – Dependency – Interface
-  
-  PianoCoach – Constructor based injection
-  
-  HarmonicaCoach – Setter method based injection
-  
-  HappyFortuneService – Implementation of FortuneService
-  
-  TrackCoach – Guitar Coach
-  
-  DependencyInjection – main class
-  
-  ApplicationContext.xml - XML Configuration file
-  
-  Dependency :: FortuneService  
-  Dependent  :: Coach
+Coach – Interface
+FortuneService – Dependency – Interface
+PianoCoach – Constructor based injection
+
+HarmonicaCoach – Setter method based injection
+
+HappyFortuneService – Implementation of FortuneService
+
+TrackCoach – Guitar Coach
+
+DependencyInjection – main class
+
+ApplicationContext.xml - XML Configuration file
+
+Dependency :: FortuneService  
+Dependent  :: Coach
   
   Spring development process steps:
   1) Load the spring configuration file and Creating spring container (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");)
