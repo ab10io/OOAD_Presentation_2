@@ -22,8 +22,7 @@ Class Description:
   DependencyInjection – main class
   ApplicationContext.xml - XML Configuration file
   
-  Dependency :: FortuneService
-  
+  Dependency :: FortuneService  
   Dependent  :: Coach
   
   Spring development process steps:
