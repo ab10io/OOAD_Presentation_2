@@ -13,8 +13,10 @@ The two approaches are almost similiar. Instead of using a constructor to set th
 
 
 Class Description:
-Coach – Interface;
+Coach – Interface
+
 FortuneService – Dependency – Interface
+
 PianoCoach – Constructor based injection
 
 HarmonicaCoach – Setter method based injection
