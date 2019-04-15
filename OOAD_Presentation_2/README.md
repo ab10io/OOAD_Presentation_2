@@ -13,8 +13,8 @@ The two approaches are almost similiar. Instead of using a constructor to set th
 
 
 #Class Description:
+```
 Coach – Interface
-``````
 
 FortuneService – Dependency – Interface
 
@@ -29,10 +29,11 @@ TrackCoach – Guitar Coach
 DependencyInjection – main class
 
 ApplicationContext.xml - XML Configuration file
-
+```
+```
 Dependency :: FortuneService  
 Dependent  :: Coach
-  
+``` 
   Spring development process steps:
   1) Load the spring configuration file and Creating spring container (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");)
   2) Retrieve the bean from the spring container :: getBean("Bean ID", interface) (Coach coach1 = context.getBean("myPianoCoach", Coach.class);)
